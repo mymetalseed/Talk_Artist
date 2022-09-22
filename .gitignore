@@ -58,3 +58,15 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+/Talk_Artisut/[Ll]ibrary/
+/Talk_Artisut/[Tt]emp/
+/Talk_Artisut/[Oo]bj/
+/Talk_Artisut/[Bb]uild/
+/Talk_Artisut/[Bb]uilds/
+/Talk_Artisut/[Ll]ogs/
+/Talk_Artisut/[Mm]emoryCaptures/
+
+/Talk_Artisut/Packages/
+
+/Talk_Artisut/Assets/Plugins/
