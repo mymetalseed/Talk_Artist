@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TA_Holohram_HologramLine 1
+  m_Shader: {fileID: 4800000, guid: bb67f4fd389efe540ade109182f0cb93, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2500
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HologramLine:
+        m_Texture: {fileID: 2800000, guid: b6d11fb650791ab48944b18e40cc3213, type: 3}
+        m_Scale: {x: 30, y: 30}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 0.5
+    - _Alpha1: 0.5
+    - _Alpha2: 0.15
+    - _Exp: 1
+    - _Float1: 0.1
+    - _FresnelExp: 1
+    - _FresnelScale: 1
+    - _OulineScale: 0.1
+    - _Scale: 1
+    - _ULine: 11
+    - _ULine1: 0.009
+    m_Colors:
+    - _Color0: {r: 0.3716981, g: 0.7857255, b: 1, a: 0}
+    - _HoloColor: {r: 0.3716981, g: 0.7857255, b: 1, a: 0}
+    - _HoloColor1: {r: 0.19245279, g: 0.55922383, b: 1, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

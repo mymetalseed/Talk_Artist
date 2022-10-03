@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HologramLine
+  m_Shader: {fileID: 4800000, guid: a48d38068facb78449dd42adf659bd9d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - ScanLine_Speed1: 0.5
+    - _Alpha: 0.58
+    - _ScanLineWidth: 1
+    - _ScanLineWidth1: 1
+    m_Colors:
+    - _HologramColor1: {r: 0.2584905, g: 0.483906, b: 1, a: 0}
+    - _ScanLineColor: {r: 0, g: 1.0117648, b: 1.4980392, a: 0}
+    - _ScanLineColor1: {r: 0.10916435, g: 0.7048749, b: 1, a: 0}
+  m_BuildTextureStacks: []

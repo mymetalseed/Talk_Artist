@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HologramLand
+  m_Shader: {fileID: 4800000, guid: 9016f047d3dd9a74eb9f4127328c8dbc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2500
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - HeightScanTimeScale: 1.37
+    - ScanLine_Speed: 0.5
+    - _1: 0.2
+    - _Alpha: 0.463
+    - _Exp: 4.94
+    - _Float7: 3.79
+    - _Height: 10
+    - _HeightScanIntensity: 15
+    - _MaxDis: 10
+    - _MaxHeightScan: 2
+    - _MaxScanDistance: 2
+    - _MaxScanDistance1: 8
+    - _OulineScale: 0.1
+    - _Scale: 1.87
+    - _ScanLineWidth: 0.05
+    - _ScanLine_FadeExp: 1
+    - _ScanLine_FadeScale: 1
+    - _ScanSpeed2: 4
+    - _UVScale: 8
+    - _WorldY: -1.5
+    - _dis: 3.17
+    - _width: 0.02
+    m_Colors:
+    - _HoloColor: {r: 0, g: 0.95686275, b: 2, a: 0}
+    - _HoloPointColor: {r: 0.029271627, g: 0.43907437, b: 0.84887713, a: 0}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ScanLineColor: {r: 0.09099322, g: 0.2577212, b: 0.33962262, a: 0.80784315}
+    - _ScanPowerScale2: {r: 4.17, g: 8.95, b: 0, a: 0}
+    - _Vector1: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -6,7 +6,7 @@ using UnityEngine;
 public class Rotate : MonoBehaviour
 {
     float start=0.0f, end=360f;
-
+    public float speed;
     void Start()
     {
     }
@@ -14,6 +14,6 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.Euler(-90,0,Mathf.Sin(Time.time / 4) * 360f);
+        transform.rotation = Quaternion.Euler(-90,0,Mathf.Sin(Time.time / speed) * 360f);
     }
 }
